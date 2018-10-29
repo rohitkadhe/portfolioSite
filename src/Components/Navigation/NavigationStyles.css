@@ -1,0 +1,44 @@
+.navBar{
+   position: fixed;
+   width: 100%;
+   background: #039BE5;
+   height: 58px;
+   top: 0;
+   left: 0;
+   font-size: 1.2em;
+}
+.navBarContainer{
+   display: flex;
+   align-items: center;
+   height: 100%;
+   padding: 0 1.2em;
+}
+.navBarContainerItems li{
+   padding: 0 1.2em;
+   font-size: 1.1em;
+}
+.navBarContainerItems ul{
+   display: flex;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.navBarContainerItems a, .home  a:hover{
+    color: #fa923f;
+    cursor: pointer;
+}
+.spaceRight{
+   flex-grow: 1;
+}
+.home a, .navBarContainerItems a{
+   color: white;
+   text-decoration: none;
+}
+.home a:active, .navBarContainerItems a:active{
+   color: #fa923f;
+   cursor: pointer;
+}
+.home a:hover, .navBarContainerItems a:hover{
+   color: #fa923f;
+   cursor: pointer;
+}
