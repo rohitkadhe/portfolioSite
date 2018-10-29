@@ -1,44 +1,35 @@
-.navBar{
+.navBarItems{
+   display: flex;
+   flex-wrap: wrap;
    position: fixed;
+   align-items: center;
    width: 100%;
    background: #039BE5;
    height: 58px;
-   top: 0;
-   left: 0;
    font-size: 1.2em;
+   margin-bottom: auto;
 }
-.navBarContainer{
-   display: flex;
-   align-items: center;
-   height: 100%;
-   padding: 0 1.2em;
-}
-.navBarContainerItems li{
-   padding: 0 1.2em;
-   font-size: 1.1em;
-}
-.navBarContainerItems ul{
-   display: flex;
-   list-style: none;
-   margin: 0;
-   padding: 0;
-}
-.navBarContainerItems a, .home  a:hover{
-    color: #fa923f;
-    cursor: pointer;
-}
-.spaceRight{
-   flex-grow: 1;
-}
-.home a, .navBarContainerItems a{
-   color: white;
+.navItem{
+   margin-right:1.2em;
+   padding-left: 1.2em;
    text-decoration: none;
+   color: white;
 }
-.home a:active, .navBarContainerItems a:active{
+ul {
+  padding: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.posLeft{
+   margin-right: auto;
+   padding: 0 5px;
+}
+.navBarItems a:hover{
    color: #fa923f;
    cursor: pointer;
 }
-.home a:hover, .navBarContainerItems a:hover{
+.navBarItems a:active{
    color: #fa923f;
    cursor: pointer;
 }
