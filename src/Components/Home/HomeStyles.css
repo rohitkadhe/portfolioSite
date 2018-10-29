@@ -1,11 +1,13 @@
 .home{
 	display: flex;
+	flex-wrap: wrap;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 }
 .main{
 	display: flex;
+	flex-wrap: wrap;
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
