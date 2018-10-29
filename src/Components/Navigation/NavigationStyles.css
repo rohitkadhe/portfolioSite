@@ -5,7 +5,8 @@
    align-items: center;
    width: 100%;
    background: #039BE5;
-   height: 58px;
+   min-height: 58px;
+   height: auto;
    font-size: 1.2em;
    margin-bottom: auto;
 }
