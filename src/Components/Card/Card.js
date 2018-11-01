@@ -1,6 +1,6 @@
 import React from 'react';
 import GitHubLogo from './GitHubLogo.png'
-import './styles.css'
+import './cardStyles.css'
 const Card=({name, image, link, language})=>{
 	return(
 	    <div className='card align'>
