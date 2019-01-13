@@ -6,7 +6,6 @@ import Home from "./Components/Home/Home";
 import Projects from "./Components/Projects/Projects";
 import { BrowserRouter as Router } from "react-router-dom";
 import Route from "react-router-dom/Route";
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -14,6 +13,7 @@ class App extends Component {
       searchfield: ""
     };
   }
+
   //Updates searchfield state each time searchbox input changes
   onInputChange = event => {
     const input = event.target.value;
@@ -24,15 +24,14 @@ class App extends Component {
     const { searchfield } = this.state;
     return (
       <div className="App">
+        <Navigation />
         {/*Renders items based on what the route is set to.*/}
         <Router>
           <div>
              {/*exact ensures to render home only if the route is exactly /
                 Routes are defined in that way to work with github pages. /reponame/*/}
-            <Navigation />
             <Route path="/portfoliosite/" exact component={Home} />
             <Route
-              exact
               path="/portfoliosite/projects/"
               render={() => {
                 return (

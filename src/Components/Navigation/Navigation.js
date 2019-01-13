@@ -1,17 +1,16 @@
 import React from 'react';
 import './NavigationStyles.css';
-import resume from '../Resume/Resume';
-import {NavLink} from 'react-router-dom';
+import resume from '../Resume/Resume'
 const Navigation=()=>{
 	return(
-			<nav>
-				<ul className="navBarItems">
-					<li className='posLeft'><NavLink activeClassName='active' className='navItem' exact to='/portfoliosite'>Home</NavLink></li>
-					<li><NavLink className='navItem' to='/portfoliosite/projects'>Projects</NavLink></li>
-					<li><a className='navItem'  target='__blank' to={resume}>Resume</a></li>
-					<li><a className='navItem'  target='__blank' href="https://www.linkedin.com/in/rohitkadhe">LinkedIn</a></li>
-				</ul>
-			</nav>
+			    <nav>
+					   <ul className="navBarItems">
+							 <li className='posLeft'><a className='navItem' href='/portfoliosite'>Home</a></li>
+						    <li><a className='navItem' href='/portfoliosite/projects'>Projects</a></li>
+							 <li><a className='navItem'  target='__blank' href={resume}>Resume</a></li>
+							 <li><a className='navItem'  target='__blank'  href="https://www.linkedin.com/in/rohitkadhe">LinkedIn</a></li>
+		            </ul>
+			    </nav>
 	);
 }
 
