@@ -1,3 +1,3 @@
-import resume from './resume.pdf'
+import pdf from './Resume.pdf'
 
-export default resume;
+export default pdf;
