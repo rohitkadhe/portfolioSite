@@ -1,7 +1,7 @@
 {
   "main.css": "/portfoliosite/static/css/main.a2d10912.chunk.css",
-  "main.js": "/portfoliosite/static/js/main.5ffffc49.chunk.js",
-  "main.js.map": "/portfoliosite/static/js/main.5ffffc49.chunk.js.map",
+  "main.js": "/portfoliosite/static/js/main.2c64730f.chunk.js",
+  "main.js.map": "/portfoliosite/static/js/main.2c64730f.chunk.js.map",
   "static/js/1.6ddb98be.chunk.js": "/portfoliosite/static/js/1.6ddb98be.chunk.js",
   "static/js/1.6ddb98be.chunk.js.map": "/portfoliosite/static/js/1.6ddb98be.chunk.js.map",
   "runtime~main.js": "/portfoliosite/static/js/runtime~main.90f16b23.js",
@@ -12,6 +12,6 @@
   "static/media/CalgaryHacks.png": "/portfoliosite/static/media/CalgaryHacks.f7969afa.png",
   "static/css/main.a2d10912.chunk.css.map": "/portfoliosite/static/css/main.a2d10912.chunk.css.map",
   "index.html": "/portfoliosite/index.html",
-  "precache-manifest.904acc607dc106956827bbda8fae2d7a.js": "/portfoliosite/precache-manifest.904acc607dc106956827bbda8fae2d7a.js",
+  "precache-manifest.f13c2a3bb74faf85b523324fdeb1127f.js": "/portfoliosite/precache-manifest.f13c2a3bb74faf85b523324fdeb1127f.js",
   "service-worker.js": "/portfoliosite/service-worker.js"
 }
