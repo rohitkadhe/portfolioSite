@@ -24,15 +24,15 @@ class App extends Component {
     const { searchfield } = this.state;
     return (
       <div className="App">
-        <Navigation />
         {/*Renders items based on what the route is set to.*/}
         <Router>
           <div>
-             {/*exact ensures to render home only if the route is exactly /
+            <Navigation />
+            {/*exact ensures to render home only if the route is exactly /
                 Routes are defined in that way to work with github pages. /reponame/*/}
-            <Route path="/portfoliosite/" exact component={Home} />
+            <Route path="/portfoliosite" exact component={Home} />
             <Route
-              path="/portfoliosite/projects/"
+              path="/portfoliosite/projects"
               render={() => {
                 return (
                   <div>
