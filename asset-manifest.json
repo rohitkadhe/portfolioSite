@@ -1,17 +1,19 @@
 {
-  "main.css": "/portfoliosite/static/css/main.ee3fe487.chunk.css",
-  "main.js": "/portfoliosite/static/js/main.ed2c972b.chunk.js",
-  "main.js.map": "/portfoliosite/static/js/main.ed2c972b.chunk.js.map",
-  "runtime~main.js": "/portfoliosite/static/js/runtime~main.4f4be5de.js",
-  "runtime~main.js.map": "/portfoliosite/static/js/runtime~main.4f4be5de.js.map",
-  "static/js/2.337da795.chunk.js": "/portfoliosite/static/js/2.337da795.chunk.js",
-  "static/js/2.337da795.chunk.js.map": "/portfoliosite/static/js/2.337da795.chunk.js.map",
-  "index.html": "/portfoliosite/index.html",
-  "precache-manifest.b68bc6aee617ca7564bb452688a8fae9.js": "/portfoliosite/precache-manifest.b68bc6aee617ca7564bb452688a8fae9.js",
-  "service-worker.js": "/portfoliosite/service-worker.js",
-  "static/css/main.ee3fe487.chunk.css.map": "/portfoliosite/static/css/main.ee3fe487.chunk.css.map",
-  "static/media/CalgaryHacks.png": "/portfoliosite/static/media/CalgaryHacks.f7969afa.png",
-  "static/media/FilesMover.png": "/portfoliosite/static/media/FilesMover.d1d32a77.png",
-  "static/media/PoolGame.png": "/portfoliosite/static/media/PoolGame.f7cac3cf.png",
-  "static/media/Resume.pdf": "/portfoliosite/static/media/Resume.8b239c77.pdf"
+  "files": {
+    "main.css": "/portfoliosite/static/css/main.f901b8bf.chunk.css",
+    "main.js": "/portfoliosite/static/js/main.378f6e50.chunk.js",
+    "main.js.map": "/portfoliosite/static/js/main.378f6e50.chunk.js.map",
+    "runtime~main.js": "/portfoliosite/static/js/runtime~main.4f4be5de.js",
+    "runtime~main.js.map": "/portfoliosite/static/js/runtime~main.4f4be5de.js.map",
+    "static/js/2.fc6b5fd2.chunk.js": "/portfoliosite/static/js/2.fc6b5fd2.chunk.js",
+    "static/js/2.fc6b5fd2.chunk.js.map": "/portfoliosite/static/js/2.fc6b5fd2.chunk.js.map",
+    "index.html": "/portfoliosite/index.html",
+    "precache-manifest.9b15d96b991fe38b35ca005be40fa66d.js": "/portfoliosite/precache-manifest.9b15d96b991fe38b35ca005be40fa66d.js",
+    "service-worker.js": "/portfoliosite/service-worker.js",
+    "static/css/main.f901b8bf.chunk.css.map": "/portfoliosite/static/css/main.f901b8bf.chunk.css.map",
+    "static/media/CalgaryHacks.png": "/portfoliosite/static/media/CalgaryHacks.f7969afa.png",
+    "static/media/FilesMover.png": "/portfoliosite/static/media/FilesMover.d1d32a77.png",
+    "static/media/PoolGame.png": "/portfoliosite/static/media/PoolGame.f7cac3cf.png",
+    "static/media/Rohit-kadhe-resume.pdf": "/portfoliosite/static/media/Rohit-kadhe-resume.271c9c55.pdf"
+  }
 }
