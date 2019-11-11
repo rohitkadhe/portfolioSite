@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "271c9c5585b198123388722f317dcb53",
-    "url": "/portfoliosite/static/media/Rohit-kadhe-resume.271c9c55.pdf"
+    "revision": "c9982d368c0193272ed2c9e3d6129fed",
+    "url": "/portfoliosite/static/media/Rohit-kadhe-resume.c9982d36.pdf"
   },
   {
     "revision": "f7cac3cfd946fde169d2620399962a74",
@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/portfoliosite/static/js/runtime~main.4f4be5de.js"
   },
   {
-    "revision": "f662d5ce8f2c45e7ffb6",
-    "url": "/portfoliosite/static/js/main.d111a591.chunk.js"
+    "revision": "7cfc7bf299422361e29a",
+    "url": "/portfoliosite/static/js/main.d3d1869f.chunk.js"
   },
   {
     "revision": "dc21bee0c000d8d7a81f",
     "url": "/portfoliosite/static/js/2.fc6b5fd2.chunk.js"
   },
   {
-    "revision": "f662d5ce8f2c45e7ffb6",
+    "revision": "7cfc7bf299422361e29a",
     "url": "/portfoliosite/static/css/main.9831ff1b.chunk.css"
   },
   {
-    "revision": "f66341947a21cd05c0a367fb59562eb5",
+    "revision": "ed2e8cdf35e85c98ce550a580ead4244",
     "url": "/portfoliosite/index.html"
   }
 ];
