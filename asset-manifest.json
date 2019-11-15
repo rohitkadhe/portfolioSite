@@ -1,17 +1,15 @@
 {
-  "main.css": "/portfoliosite/static/css/main.9831ff1b.chunk.css",
-  "main.js": "/portfoliosite/static/js/main.d3d1869f.chunk.js",
-  "main.js.map": "/portfoliosite/static/js/main.d3d1869f.chunk.js.map",
+  "main.css": "/portfoliosite/static/css/main.ed6d7df9.chunk.css",
+  "main.js": "/portfoliosite/static/js/main.8d4db099.chunk.js",
+  "main.js.map": "/portfoliosite/static/js/main.8d4db099.chunk.js.map",
   "runtime~main.js": "/portfoliosite/static/js/runtime~main.4f4be5de.js",
   "runtime~main.js.map": "/portfoliosite/static/js/runtime~main.4f4be5de.js.map",
-  "static/js/2.fc6b5fd2.chunk.js": "/portfoliosite/static/js/2.fc6b5fd2.chunk.js",
-  "static/js/2.fc6b5fd2.chunk.js.map": "/portfoliosite/static/js/2.fc6b5fd2.chunk.js.map",
+  "static/js/2.ecc83016.chunk.js": "/portfoliosite/static/js/2.ecc83016.chunk.js",
+  "static/js/2.ecc83016.chunk.js.map": "/portfoliosite/static/js/2.ecc83016.chunk.js.map",
   "index.html": "/portfoliosite/index.html",
-  "precache-manifest.0e40add9a76c18bf682f5a8effcc8e5d.js": "/portfoliosite/precache-manifest.0e40add9a76c18bf682f5a8effcc8e5d.js",
+  "precache-manifest.7558c8848f3f221910664220be9c25e9.js": "/portfoliosite/precache-manifest.7558c8848f3f221910664220be9c25e9.js",
   "service-worker.js": "/portfoliosite/service-worker.js",
-  "static/css/main.9831ff1b.chunk.css.map": "/portfoliosite/static/css/main.9831ff1b.chunk.css.map",
-  "static/media/CalgaryHacks.png": "/portfoliosite/static/media/CalgaryHacks.f7969afa.png",
-  "static/media/FilesMover.png": "/portfoliosite/static/media/FilesMover.d1d32a77.png",
-  "static/media/PoolGame.png": "/portfoliosite/static/media/PoolGame.f7cac3cf.png",
-  "static/media/Rohit-kadhe-resume.pdf": "/portfoliosite/static/media/Rohit-kadhe-resume.c9982d36.pdf"
+  "static/css/main.ed6d7df9.chunk.css.map": "/portfoliosite/static/css/main.ed6d7df9.chunk.css.map",
+  "static/media/Rohit-kadhe-resume.pdf": "/portfoliosite/static/media/Rohit-kadhe-resume.c9982d36.pdf",
+  "static/media/backgroundImagePrimary.jpg": "/portfoliosite/static/media/backgroundImagePrimary.64e57715.jpg"
 }
