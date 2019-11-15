@@ -1,31 +1,21 @@
-.home{
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
+.centerMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
-.main{
-	display: flex;
-	flex-flow: column;
-	justify-content: center;
-	align-items: center;
-	margin-top: 70px;
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: max-content;
+  font-size: 1.5rem;
 }
-.header{
-	text-align: center;
-	color: #05b4e4;
-	font-size: 36px;
-	text-transform: uppercase;
-	margin: 0;
+.large.text {
+  font-size: 3em;
 }
-.image{
-	width: 55%;
-	min-width: 350px;
-	height: auto;
-}
-.innerText{
-	text-align: center;
-	width: 80%;
-	color: #333;
-	font-size: 28px;
+.small.text {
+  font-size: 2rem;
 }

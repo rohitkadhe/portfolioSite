@@ -1,51 +1,14 @@
-import React, { Component } from "react";
-import "./App.css";
-import Navigation from "./Components/Navigation/Navigation";
-import Search from "./Components/Search/Search";
+import React from "react";
 import Home from "./Components/Home/Home";
-import Projects from "./Components/Projects/Projects";
-import { BrowserRouter as Router } from "react-router-dom";
-import Route from "react-router-dom/Route";
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      searchfield: ""
-    };
-  }
+import Params from "./particlesjs-config.json";
+import Particles from "react-particles-js";
 
-  //Updates searchfield state each time searchbox input changes
-  onInputChange = event => {
-    const input = event.target.value;
-    this.setState({ searchfield: input });
-  };
-
-  render() {
-    const { searchfield } = this.state;
-    return (
-      <div className="App">
-        {/*Renders items based on what the route is set to.*/}
-        <Router>
-          <div>
-            <Navigation />
-            {/*exact ensures to render home only if the route is exactly /
-                Routes are defined in that way to work with github pages. /reponame/*/}
-            <Route path="/portfoliosite" exact component={Home} />
-            <Route
-              path="/portfoliosite/projects"
-              render={() => {
-                return (
-                  <div>
-                    <Search onInputChange={this.onInputChange} />
-                    <Projects searchfield={searchfield} />
-                  </div>
-                );
-              }}
-            />
-          </div>
-        </Router>
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div id="App">
+      <Particles params={Params} />
+      <Home />
+    </div>
+  );
+};
 export default App;

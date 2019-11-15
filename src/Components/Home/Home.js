@@ -1,19 +1,28 @@
 import React from "react";
+import Link from "../Link/Link";
+import Data from "../Home/Data";
 import "./HomeStyles.css";
+import backgroundImage from "../../Images/backgroundImagePrimary.jpg";
+
 const Home = () => {
   return (
-    <div className="home">
-      <div className="main">
-        <h1 className="header">Welcome to my website!</h1>
-        <p className="innerText">
-          My name is Rohit Kadhe and I am a Electrical Engineering student at
-          the University of Calgary pursuing a minor in Computer Engineering
-        </p>
-        <img
-          alt=""
-          className="image"
-          src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a20bc6324f6ef2969d9a7cae56b8d4d1&auto=format&fit=crop&w=1650&q=80"
-        />
+    <div
+      className="centerMain"
+      style={{ backgroundImage: `url(${backgroundImage}` }}
+    >
+      <div>
+        <h1 className="large text">Rohit kadhe</h1>
+        <div className="small text content">
+          Electrical Engineering | Computer Engineering Minor
+        </div>
+        <div className="divider">
+          <div className="ui divider"></div>
+        </div>
+        <div className="ui grid ">
+          {Data.map(d => {
+            return <Link imageSrc={d.logo} link={d.link} key={d.id} />;
+          })}
+        </div>
       </div>
     </div>
   );
