@@ -1,15 +1,23 @@
 {
-  "main.css": "/portfoliosite/static/css/main.ed6d7df9.chunk.css",
-  "main.js": "/portfoliosite/static/js/main.8d4db099.chunk.js",
-  "main.js.map": "/portfoliosite/static/js/main.8d4db099.chunk.js.map",
-  "runtime~main.js": "/portfoliosite/static/js/runtime~main.4f4be5de.js",
-  "runtime~main.js.map": "/portfoliosite/static/js/runtime~main.4f4be5de.js.map",
-  "static/js/2.ecc83016.chunk.js": "/portfoliosite/static/js/2.ecc83016.chunk.js",
-  "static/js/2.ecc83016.chunk.js.map": "/portfoliosite/static/js/2.ecc83016.chunk.js.map",
-  "index.html": "/portfoliosite/index.html",
-  "precache-manifest.7558c8848f3f221910664220be9c25e9.js": "/portfoliosite/precache-manifest.7558c8848f3f221910664220be9c25e9.js",
-  "service-worker.js": "/portfoliosite/service-worker.js",
-  "static/css/main.ed6d7df9.chunk.css.map": "/portfoliosite/static/css/main.ed6d7df9.chunk.css.map",
-  "static/media/Rohit-kadhe-resume.pdf": "/portfoliosite/static/media/Rohit-kadhe-resume.c9982d36.pdf",
-  "static/media/backgroundImagePrimary.jpg": "/portfoliosite/static/media/backgroundImagePrimary.64e57715.jpg"
+  "files": {
+    "main.css": "/portfoliosite/static/css/main.5744bd42.chunk.css",
+    "main.js": "/portfoliosite/static/js/main.0c2f760b.chunk.js",
+    "main.js.map": "/portfoliosite/static/js/main.0c2f760b.chunk.js.map",
+    "runtime-main.js": "/portfoliosite/static/js/runtime-main.c605a3d4.js",
+    "runtime-main.js.map": "/portfoliosite/static/js/runtime-main.c605a3d4.js.map",
+    "static/js/2.a49d14d4.chunk.js": "/portfoliosite/static/js/2.a49d14d4.chunk.js",
+    "static/js/2.a49d14d4.chunk.js.map": "/portfoliosite/static/js/2.a49d14d4.chunk.js.map",
+    "index.html": "/portfoliosite/index.html",
+    "precache-manifest.8480c0a9eb0147a9f005be83376c001d.js": "/portfoliosite/precache-manifest.8480c0a9eb0147a9f005be83376c001d.js",
+    "service-worker.js": "/portfoliosite/service-worker.js",
+    "static/css/main.5744bd42.chunk.css.map": "/portfoliosite/static/css/main.5744bd42.chunk.css.map",
+    "static/media/Rohit-kadhe-resume.pdf": "/portfoliosite/static/media/Rohit-kadhe-resume.c9982d36.pdf",
+    "static/media/App.css": "/portfoliosite/static/media/backgroundImagePrimary.64e57715.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c605a3d4.js",
+    "static/js/2.a49d14d4.chunk.js",
+    "static/css/main.5744bd42.chunk.css",
+    "static/js/main.0c2f760b.chunk.js"
+  ]
 }
