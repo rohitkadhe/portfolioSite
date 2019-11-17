@@ -7,15 +7,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-img {
-  width: 100%;
-  height: auto;
-}
-.particles {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
+
 .flex-grid {
   display: flex;
 }
