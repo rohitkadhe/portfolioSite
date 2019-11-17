@@ -1,31 +1,22 @@
 import React from "react";
-import Link from "../Link/Link";
-import Data from "../Home/Data";
-import "./HomeStyles.css";
-import backgroundImage from "../../Images/backgroundImagePrimary.jpg";
+import Data from "../../Data";
+import Link from "../../Components/Link/Link";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div
-      className="centerMain"
-      style={{ backgroundImage: `url(${backgroundImage}` }}
-    >
-      <div>
-        <h1 className="large text">Rohit kadhe</h1>
-        <div className="small text content">
-          Electrical Engineering | Computer Engineering Minor
-        </div>
-        <div className="divider">
-          <div className="ui divider"></div>
-        </div>
-        <div className="ui grid ">
-          {Data.map(d => {
-            return <Link imageSrc={d.logo} link={d.link} key={d.id} />;
+    <div className="home">
+      <div className="content">
+        <h2>Rohit Kadhe</h2>
+        <div>Electrical Engineering | Computer Engineering Minor</div>
+        <div className="divider" />
+        <div className="flex-grid">
+          {Data.map(data => {
+            return <Link imageSrc={data.logo} key={data.id} link={data.link} />;
           })}
         </div>
       </div>
     </div>
   );
 };
-
 export default Home;

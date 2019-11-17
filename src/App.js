@@ -1,14 +1,16 @@
 import React from "react";
+import "./App.css";
 import Home from "./Components/Home/Home";
-import Params from "./particlesjs-config.json";
 import Particles from "react-particles-js";
+import Params from "./particlesjs-config.json";
 
-const App = () => {
+function App() {
   return (
-    <div id="App">
-      <Particles params={Params} />
+    <div className="app">
+      <Particles className="particles" params={Params} />
       <Home />
     </div>
   );
-};
+}
+
 export default App;

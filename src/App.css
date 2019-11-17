@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./Images/backgroundImagePrimary.jpg");
+  min-height: 100vh;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.particles {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.flex-grid {
+  display: flex;
+}
+.col {
+  padding-right: 3vh;
+  font-size: calc(10px + 2vmin);
+}
+.divider {
+  margin: 1rem 0;
+  width: 100%;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
