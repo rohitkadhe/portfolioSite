@@ -16,6 +16,7 @@
 }
 .flex-grid {
   display: flex;
+  z-index: 4;
 }
 .col {
   padding-right: 3vh;
