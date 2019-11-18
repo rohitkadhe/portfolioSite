@@ -1,18 +1,14 @@
 .home {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: whitesmoke;
+  font-size: calc(12px + 2vmin);
 }
-.content {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-h2 {
+.header {
   margin: 1rem 0;
+}
+
+.mainContent {
+  font-weight: bolder;
 }
