@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5422e609a5fa2918a82f3fc09acd64b8",
+    "revision": "4a9d7e8019e617492564cc8ebb022570",
     "url": "/portfoliosite/index.html"
   },
   {
-    "revision": "8ec3eb6209f5161971c8",
+    "revision": "e3357065e744c1cf04ff",
     "url": "/portfoliosite/static/css/main.99db524a.chunk.css"
   },
   {
@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfoliosite/static/js/2.a49d14d4.chunk.js"
   },
   {
-    "revision": "8ec3eb6209f5161971c8",
-    "url": "/portfoliosite/static/js/main.31ce476c.chunk.js"
+    "revision": "e3357065e744c1cf04ff",
+    "url": "/portfoliosite/static/js/main.9e9a69fb.chunk.js"
   },
   {
     "revision": "210bf8f6ea0593e9945d",
     "url": "/portfoliosite/static/js/runtime-main.c605a3d4.js"
   },
   {
-    "revision": "ec1991f32581c01e27f99ef8dc0f9f0f",
-    "url": "/portfoliosite/static/media/Rohit-kadhe-resume.ec1991f3.pdf"
+    "revision": "d0f57cf023fa579ed9fae9717e4b4cf7",
+    "url": "/portfoliosite/static/media/Rohit-kadhe-resume.d0f57cf0.pdf"
   }
 ]);
