@@ -1,8 +1,7 @@
 import githubLogo from "./Images/github.png";
 import resumeLogo from "./Images/resume-icon-48.png";
 import linkedinLogo from "./Images/linkedin.png";
-import resumePath from "./Components/Resume/Rohit-kadhe-resume.pdf";
-
+import resumePath from "./Components/Resume/Resume"
 const githubProfilePath = "https://github.com/rohitkadhe/";
 const linkedinProfilePath = "https://www.linkedin.com/in/rohitkadhe";
 

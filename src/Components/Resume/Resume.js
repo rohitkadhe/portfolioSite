@@ -1,3 +1,3 @@
-import pdf from "./Rohit-kadhe-resume.pdf";
+import pdf from "./Rohit_Resume.pdf";
 
 export default pdf;
