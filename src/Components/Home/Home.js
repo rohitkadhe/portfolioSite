@@ -6,13 +6,13 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <h2 className="header"> Rohit Kadhe</h2>
-      <div className="mainContent">
+      <h2 className="header col"> Rohit Kadhe</h2>
+      <div className="col">
         Electrical Engineering | Computer Engineering Minor
       </div>
       <div className="divider" />
       <div className="flex-grid">
-        {Data.map(data => {
+        {Data.map((data) => {
           return <Link imageSrc={data.logo} key={data.id} link={data.link} />;
         })}
       </div>
