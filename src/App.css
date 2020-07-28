@@ -14,16 +14,3 @@
   width: 100%;
   z-index: 0;
 }
-.flex-grid {
-  display: flex;
-  z-index: 4;
-}
-.col {
-  padding-right: 3vh;
-}
-.divider {
-  margin: 1rem 0;
-  width: 100%;
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
