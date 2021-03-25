@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf9e539ebaccb276e114c5eda20b0d95",
+    "revision": "e9f3350b0fc3d529af44a756838b4cc4",
     "url": "/portfoliosite/index.html"
   },
   {
-    "revision": "efb61e15321284bfca53",
+    "revision": "c70805f7cf515ab30308",
     "url": "/portfoliosite/static/css/main.8ca3ab26.chunk.css"
   },
   {
@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfoliosite/static/js/2.ea7180d3.chunk.js"
   },
   {
-    "revision": "efb61e15321284bfca53",
-    "url": "/portfoliosite/static/js/main.2e892e17.chunk.js"
+    "revision": "c70805f7cf515ab30308",
+    "url": "/portfoliosite/static/js/main.c1c66639.chunk.js"
   },
   {
     "revision": "210bf8f6ea0593e9945d",
     "url": "/portfoliosite/static/js/runtime-main.c605a3d4.js"
   },
   {
-    "revision": "0efa4b7e23caba4846488bd07d1cb959",
-    "url": "/portfoliosite/static/media/Rohit_Resume.0efa4b7e.pdf"
+    "revision": "2115a9ce73c474f410f60ded1fbe1070",
+    "url": "/portfoliosite/static/media/Rohit_Resume.2115a9ce.pdf"
   }
 ]);
